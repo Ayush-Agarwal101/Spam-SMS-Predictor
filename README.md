@@ -66,7 +66,7 @@ Install the following Python libraries:
 
 3. **Open the notebook**:
    ```bash
-   jupyter notebook "Spam SMS Detector.ipynb"
+   jupyter notebook "Spam_SMS_Detector.ipynb"
    ```
    or if you're using VS Code or JupyterLab, open it directly from the GUI.
 
