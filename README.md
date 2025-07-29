@@ -46,7 +46,7 @@ To support other languages, you can **replace or extend** the dataset with a suf
 Install the following Python libraries:
 
 ```bash
-pip install numpy pandas matplotlib scikit-learn
+%pip install numpy pandas matplotlib scikit-learn
 ```
 
 ---
@@ -64,12 +64,14 @@ pip install numpy pandas matplotlib scikit-learn
    - Download `spam.csv`
    - Place the file in your project directory
 
-3. **Run the program**:
+3. **Open the notebook**:
    ```bash
-   python spam_sms_detector.py
+   jupyter notebook "Spam SMS Detector.ipynb"
    ```
+   or if you're using VS Code or JupyterLab, open it directly from the GUI.
 
-4. **Input required batch sizes** when prompted:
+4. **Run all cells**
+   Click Run All or run cell-by-cell and follow the prompts. Input required batch sizes when prompted:
    - Training batch size
    - Testing batch size
 
